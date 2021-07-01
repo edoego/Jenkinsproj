@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/edoego/Jenkinsproj.git'
+     git 'https://github.com/edoego/spring-petclinic.git'
    }
    stage('Compile-Package'){
       // Get maven home path
